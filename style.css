@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(207, 207, 207);
+    font-family: Roboto, Ubuntu, 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 20px;
+    padding-bottom: 70px;
+    background-color: rgb(10, 59, 82);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+header h6{
+    font-size: 12px;
+    color: white;
+    margin-top: -95px;
+    margin-left: 44%;
+}
+
+nav {
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgb(4, 19, 26);
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#intro {
+    border: 2px solid rgb(4, 19, 26);
+    margin-left: 26%;   /*-- 460px --*/
+    margin-right: 26%;
+    margin-top: 50px;
+}
+
+#intro h2 {
+    text-align: center;
+}
+#intro p {
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 18px;
+}
+
+div#pro{
+    text-align: center;
+    margin-left: 12px;
+}
+h1#prop {
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-right: 28%;
+}
+
+td {
+    padding: 5px;
+    margin: 5px;
+}
+
+footer{
+    margin-top:10px;
+    background-color: rgb(4, 19, 26);
+}
+footer a {
+    padding-left: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
